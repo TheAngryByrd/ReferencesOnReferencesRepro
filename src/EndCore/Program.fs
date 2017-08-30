@@ -2,7 +2,10 @@
 
 open System
 
+
 [<EntryPoint>]
 let main argv =
+    Top.Say.hello "Top-Core"
+    Middle.Say.hello "Top-Core"
     printfn "Hello World from F#!"
     0 // return an integer exit code
