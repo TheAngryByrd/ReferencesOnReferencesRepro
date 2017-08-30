@@ -1,4 +1,4 @@
-namespace ReferencesOfReferences
+namespace Top
 
 module Say =
     let hello name =
